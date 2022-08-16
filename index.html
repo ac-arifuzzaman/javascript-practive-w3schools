@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>javascript can change change any html innertext</h2>
+    <p id="demo">We are going to chage this paragraph tag</p>
+    <button type="button" onclick="document.getElementById('demo').innerHTML = 'Abar abar shuru theke'">Click me</button>
+
+    <!-- change source by javascript -->
+    <img id="myImg" src="images/bulb.jpg" alt="bulb">
+    <button type="button" onclick="document.getElementById('myImg').src='images/bulbon.jpg'">light on</button>
+   <button type="button" onclick="document.getElementById('myImg').src='images/bulb.jpg'">light off</button>
+    </button>
+
+    <!-- javascript can chage style also -->
+    <p id="style">we are now chage this paragraph style</p>
+    <p id="show" style="display:none">this paragraph is hidden now it shown by clicking show paragraph button</p>
+    <p id="hide">javascript can hide a html display property</p>
+    <button type="button" onclick="document.getElementById('hide').style.display='none'">Display none</button>
+    <button type="button" onclick="document.getElementById('show').style.display='block'">show paragraph </button>
+    <button type="button" onclick="document.getElementById('style').style.fontSize='35px'">change font size</button>
+    <button type="button" onclick="document.getElementById('style').style.fontSize='16px'">reduce font size</button>
+  </body>
+</html>
